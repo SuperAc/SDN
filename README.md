@@ -60,3 +60,10 @@
      
 >> * Opendaylight Carbon 安装
     和beryllium的安装类似  在fearture:install 的时候如果没有找到包 先:list -a | grep 查找一下
+    
+    feature:install odl-restconf
+    feature:install odl-l2switch-switch-ui
+    feature:install odl-openflowplugin-flow-services-he
+    feature:install odl-openflowplugin-flow-services-ui
+    feature:install odl-dluxapps-applications
+    feature:install odl-dluxapps-yangutils
